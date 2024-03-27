@@ -1,0 +1,85 @@
+
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url('https://images.pexels.com/photos/1974521/pexels-photo-1974521.jpeg'); /* URL de la imagen del amanecer */
+        background-size: cover; /* Ajustar la imagen al tamaño de la ventana del navegador */
+        background-repeat: no-repeat; /* Evitar que la imagen se repita */
+    
+}
+
+header {
+    background-color: #343a40; /* Color de fondo del encabezado */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffc107; /* Color al pasar el ratón */
+}
+
+main {
+    padding: 20px;
+}
+
+.page {
+    margin-bottom: 40px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.page.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+h1 {
+    font-size: 3em; /* Tamaño de fuente grande */
+    margin-bottom: 30px; /* Mayor espacio inferior */
+    text-align: center;
+    color: #343a40; /* Color del texto */
+}
+
+p {
+    font-size: 1.2em; /* Tamaño de fuente aumentado */
+    text-align: center;
+    color: #495057; /* Color del texto */
+    line-height: 1.6; /* Espaciado de línea aumentado */
+}
+
+button {
+    padding: 15px 30px; /* Mayor relleno */
+    background-color: #ffc107; /* Color de fondo */
+    color: #343a40; /* Color del texto */
+    border: none;
+    border-radius: 25px; /* Bordes redondeados */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: block;
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: #ffca28; /* Cambio de color al pasar el ratón */
+    transform: scale(1.05); /* Efecto de escala al pasar el ratón */
+}
