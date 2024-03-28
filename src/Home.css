@@ -1,0 +1,46 @@
+.home-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .functionality-section {
+    margin-top: 40px;
+  }
+  
+  .functionality-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .functionality-list li {
+    margin-bottom: 10px;
+  }
+  
+  .functionality-list li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .functionality-list li a:hover {
+    color: #007bff;
+  }
+  
+  .cta-section {
+    margin-top: 40px;
+  }
+  
+  .cta-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: 
+  
